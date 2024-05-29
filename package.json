@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "@orbs-network/ton-access": "^2.3.3",
-    "ton-client-js": "^0.28.1",
-    "ts-node": "^10.9.2"
-  }
-}
