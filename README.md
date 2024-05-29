@@ -13,7 +13,7 @@
 1. **Setup Development Environment**:
 
    - [ ] Install the necessary SDKs and development tools for TON and Telegram.
-   - Set up a TON Wallet and obtain some test tokens.
+   - [ ] Set up a TON Wallet and obtain some test tokens.
 
 2. **Create a Telegram Bot**:
 
