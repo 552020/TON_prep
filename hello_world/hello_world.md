@@ -8,11 +8,44 @@ Step 1: Create a new **wallet** using an app
 Step 2: Backup the 24 word **recovery phrase**
 Step 3: View the wallet by address in an **explorer**
 https://testnet.tonscan.org/
+
 Step 4: Fund and deploy your wallet contract
 
-Not so easy, you basically need to send a test transaction: it means to switch your wallet to developer mood and change the net to the testnet. Find a valid address to which you can send the TONS. The address of the wallet: https://wallet.tonkeeper.com/. Then go to settings and click 5x on the logo on the bottom to enter dev mode. Switch net to the testnet and finally enter this address EQChHpu8-rFBQyVCXJtT1aTwODTBc1dFUAEatbYy11ZLcBST. Recheck the explorer.
+Not so easy, you basically need to send a test transaction: it means you need to switch your wallet to the developer mode and change the net to the testnet. Find a valid address to which you can send the TONS. The address of the wallet: https://wallet.tonkeeper.com/. Then go to settings of you wallet (if it is tonkeeper) and click 5x on the logo at the bottom to enter dev mode. Switch net to the testnet and finally send your transaction to this address EQChHpu8-rFBQyVCXJtT1aTwODTBc1dFUAEatbYy11ZLcBST. Recheck the explorer.
 
-Step 6: Set up your local machine for coding
+Step 6: Set up your local machine for coding.
+
+- Create a folder for your project, and `cd` into the folder.
+- Initialize an npm project: npm init -y
+  <!-- Initialize run time and development dependencies  -->
+- npm install @ton/ton @ton/crypto dotenv
+- npm install --save-dev typescript ts-node
+- add a `tsconfig.json` in the root directory
+
+```json
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["*.ts"]
+}
+```
+
+- create a `.env` file into the root to store the mnemonic phrase, the 24 words.
+
+```
+MNEMONIC="your 24-word mnemonic here"
+
+```
+
+- create a `.gitignore` file on the root, and ignore at least .env and `node_modules/`
+
+- finally create the script `step7.ts`
 
 ```ts
 import { mnemonicToWalletKey } from "@ton/crypto";
@@ -41,6 +74,8 @@ async function main() {
 main();
 ```
 
+- run the script `npx ts-node.ts`
+
 Step 8: Read wallet state from the chain
 
 - npm init -y
@@ -52,3 +87,4 @@ Step 8: Read wallet state from the chain
 - TON coin
 - Explorers: https://ton.app/explorers
 - RPC service provider: a provider that runs TON Blockchain nodes and allow us to communicate with them over HTTP
+- seqno: a wallet's seqno is the sequence number of the last transaction that the wallet sent
