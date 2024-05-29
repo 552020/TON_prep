@@ -30,3 +30,6 @@ coverage/
 bower_components/
 
 # Compiled binary addons (https://nodejs.org/api/addons.html
+
+.env
+.env.local
