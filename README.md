@@ -2,7 +2,9 @@
 
 ### Preparation Projects for the TON Hackathon
 
-#### 1. "Hello World" Project
+#### 1. "Hello World I"
+
+https://tonhelloworld.com/01-wallet/
 
 **Project Name: TON Wallet Integration Mini-App**
 
