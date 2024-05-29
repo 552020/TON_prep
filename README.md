@@ -12,22 +12,22 @@
 
 1. **Setup Development Environment**:
 
-   - [ ] Install the necessary SDKs and development tools for TON and Telegram.
-   - [ ] Set up a TON Wallet and obtain some test tokens.
+   - [x] Install the necessary SDKs and development tools for TON and Telegram.
+   - [x] Set up a TON Wallet and obtain some test tokens.
 
 2. **Create a Telegram Bot**:
 
-   - Use the Telegram Bot API to create a new bot.
-   - Set up basic bot commands like `/start` and `/help`.
+   - [ ] Use the Telegram Bot API to create a new bot.
+   - [ ] Set up basic bot commands like `/start` and `/help`.
 
 3. **Connect to TON Blockchain**:
 
-   - Use TON's APIs to connect to the blockchain.
-   - Write a function to fetch and display the wallet balance and transaction history.
+   - [x] Use TON's APIs to connect to the blockchain.
+   - [x] Write a function to fetch and display the wallet balance and transaction history.
 
 4. **Deploy and Test**:
-   - Deploy your bot and test it with your TON Wallet.
-   - Ensure that it correctly displays the balance and recent transactions.
+   - [ ] Deploy your bot and test it with your TON Wallet.
+   - [ ] Ensure that it correctly displays the balance and recent transactions.
 
 **Example Code Snippet**:
 
