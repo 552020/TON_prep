@@ -12,60 +12,7 @@
 
 ### 1. "Hello World I"
 
-https://tonhelloworld.com/01-wallet/
-
-**Project Name: TON Wallet Integration Mini-App**
-
-**Objective**: Create a simple mini-app that integrates with the TON Wallet to display a user's wallet balance and recent transactions within Telegram.
-
-**Steps**:
-
-1. **Setup Development Environment**:
-
-   - [x] Install the necessary SDKs and development tools for TON and Telegram.
-   - [x] Set up a TON Wallet and obtain some test tokens.
-
-2. **Create a Telegram Bot**:
-
-   - [ ] Use the Telegram Bot API to create a new bot.
-   - [ ] Set up basic bot commands like `/start` and `/help`.
-
-3. **Connect to TON Blockchain**:
-
-   - [x] Use TON's APIs to connect to the blockchain.
-   - [x] Write a function to fetch and display the wallet balance and transaction history.
-
-4. **Deploy and Test**:
-   - [ ] Deploy your bot and test it with your TON Wallet.
-   - [ ] Ensure that it correctly displays the balance and recent transactions.
-
-**Example Code Snippet**:
-
-```python
-import requests
-from telegram.ext import Updater, CommandHandler
-
-# Replace with your own Telegram bot token and TON API endpoint
-TELEGRAM_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-TON_API_URL = 'https://tonapi.example.com/wallet'
-
-def start(update, context):
-    update.message.reply_text('Welcome to TON Wallet Bot! Use /balance to check your balance.')
-
-def balance(update, context):
-    user_id = update.message.chat_id
-    response = requests.get(f'{TON_API_URL}/{user_id}/balance')
-    balance = response.json().get('balance', 'Error fetching balance')
-    update.message.reply_text(f'Your balance is: {balance} TON')
-
-updater = Updater(TELEGRAM_TOKEN, use_context=True)
-dp = updater.dispatcher
-dp.add_handler(CommandHandler("start", start))
-dp.add_handler(CommandHandler("balance", balance))
-
-updater.start_polling()
-updater.idle()
-```
+Check: `./hello_world/hello_world.md`
 
 #### 2. More Serious Project
 
