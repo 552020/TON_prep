@@ -1,8 +1,16 @@
 # TON_prep
 
-### Preparation Projects for the TON Hackathon
+## General Info
 
-#### 1. "Hello World I"
+### Start
+
+- [Berlin Bootcamp: registration, info and agenda](https://lu.ma/uulxeexl)
+- [Official TON documentation](https://docs.ton.org/)
+- [TON Ecosystem Map](https://github.com/ton-society/ecosystem-map)
+
+## Preparation Projects for the TON Bootcamp
+
+### 1. "Hello World I"
 
 https://tonhelloworld.com/01-wallet/
 
@@ -116,3 +124,18 @@ updater.idle()
 - **Database**: MongoDB for storing user and listing data.
 - **Authentication**: Telegram OAuth for user sign-in.
 - **Notifications**: Telegram Bot API for sending notifications.
+
+## Other resources
+
+- [Ton Console Documentation](https://docs.tonconsole.com/)
+- [Open League Hackathon](https://dorahacks.io/hackathon/the-open-league-hackathon/ideaism)
+  [Leo: On this link on the main page they say they need apps "that can attract new users like Notcoin, Catizen and Pixels" which are kind of stupid and viral but in the "Ideas" tab there are more "mature" ideas. On the same link there are many videos, ressources, tools.]
+
+### The Open League Hackathon
+
+Below are the objectives of The Open League Hackathon:
+
+- Find more dapps with creative, simple, and viral token mining mechanisms that can attract new users like Notcoin, Catizen and Pixels
+- Find dapps with that appeal to a mass audience, TON is a blockchain for everyone. Where complexity dies and simplicity thrives. We’re looking for teams building mini-apps that integrate web3 features seamlessly and appeal to everyone.
+- Recruit proven dapps from other blockchains who want to leverage TON, Telegram, and The Open League to attract millions of users.
+- Recruit proven mini-apps developers and teams from other SuperApps that want to integrate web3 features and leverage TON, Telegram, and The Open League to attract millions of users.
