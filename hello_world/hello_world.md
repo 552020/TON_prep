@@ -4,16 +4,19 @@ https://tonhelloworld.com/01-wallet/
 
 Step by step guide for working with your first TON wallet: create one and access it programmatically
 
-Step 1: Create a new **wallet** using an app
-Step 2: Backup the 24 word **recovery phrase**
-Step 3: View the wallet by address in an **explorer**
+## Step 1: Create a new **wallet** using an app
+
+## Step 2: Backup the 24 word **recovery phrase**
+
+## Step 3: View the wallet by address in an **explorer**
+
 https://testnet.tonscan.org/
 
-Step 4: Fund and deploy your wallet contract
+## Step 4: Fund and deploy your wallet contract
 
 Not so easy, you basically need to send a test transaction: it means you need to switch your wallet to the developer mode and change the net to the testnet. Find a valid address to which you can send the TONS. The address of the wallet: https://wallet.tonkeeper.com/. Then go to settings of you wallet (if it is tonkeeper) and click 5x on the logo at the bottom to enter dev mode. Switch net to the testnet and finally send your transaction to this address EQChHpu8-rFBQyVCXJtT1aTwODTBc1dFUAEatbYy11ZLcBST. Recheck the explorer.
 
-Step 6: Set up your local machine for coding.
+## Step 6: Set up your local machine for coding.
 
 - Create a folder for your project, and `cd` into the folder.
 - Initialize an npm project: npm init -y
@@ -74,12 +77,14 @@ async function main() {
 main();
 ```
 
-- run the script `npx ts-node.ts`
+- run the script `npx ts-node step7.ts`
 
-Step 8: Read wallet state from the chain
+## Step 8: Read wallet state from the chain
 
 - npm init -y
 - npm install @ton/ton @ton/crypto @ton/core ts-node @orbs-network/ton-access
+
+## Step 9: Send transfer transaction to the chain
 
 ## Glossary
 
