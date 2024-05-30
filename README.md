@@ -5,6 +5,7 @@
 ### Start
 
 - [Berlin Bootcamp: registration, info and agenda](https://lu.ma/uulxeexl)
+- [Bootcamp Team Formation](https://ton-org.notion.site/Bootcamp-Team-Formation-c0dd5197ce4043daa94ac93e0fb7c7f9)
 - [Official TON documentation](https://docs.ton.org/)
 - [TON Ecosystem Map](https://github.com/ton-society/ecosystem-map)
 
@@ -86,3 +87,12 @@ Below are the objectives of The Open League Hackathon:
 - Find dapps with that appeal to a mass audience, TON is a blockchain for everyone. Where complexity dies and simplicity thrives. We’re looking for teams building mini-apps that integrate web3 features seamlessly and appeal to everyone.
 - Recruit proven dapps from other blockchains who want to leverage TON, Telegram, and The Open League to attract millions of users.
 - Recruit proven mini-apps developers and teams from other SuperApps that want to integrate web3 features and leverage TON, Telegram, and The Open League to attract millions of users.
+
+## Glossary
+
+- TON Blockchain
+- TON coin
+- Explorers: https://ton.app/explorers
+- RPC service provider: a provider that runs TON Blockchain nodes and allow us to communicate with them over HTTP
+- seqno: a wallet's seqno is the sequence number of the last transaction that the wallet sent
+- Dapps: decentralized applications

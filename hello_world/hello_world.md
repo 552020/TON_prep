@@ -85,11 +85,3 @@ main();
 - npm install @ton/ton @ton/crypto @ton/core ts-node @orbs-network/ton-access
 
 ## Step 9: Send transfer transaction to the chain
-
-## Glossary
-
-- TON Blockchain
-- TON coin
-- Explorers: https://ton.app/explorers
-- RPC service provider: a provider that runs TON Blockchain nodes and allow us to communicate with them over HTTP
-- seqno: a wallet's seqno is the sequence number of the last transaction that the wallet sent
