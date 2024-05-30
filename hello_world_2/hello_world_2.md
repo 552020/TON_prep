@@ -14,7 +14,7 @@ We will need node.js. But we already have it from hello world part 1 at least.
 
 This is what get executed when we run the script: https://github.com/ton-org/create-ton.
 
-3. A new repo got created:
+3. A new repo got created. Notice that the repo containing the smart contract has been deleted, otherwise we should have add a git module to have the code of the smart contract in this ton_prep repo.
 
 - **CLI Output**
 
